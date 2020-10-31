@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Formulario de Encuesta</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='stylesheet.css'>
+  <link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+  crossorigin="anonymous"
+  />
+
+</head>
+
+<body>
+  <!-- ------------------------------------------------------------------------------------- -->
+  <!-------------------- Script para pruebas de https://www.freecodecamp.org --------------  -->
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <!-- ------------------------------------------------------------------------------------- -->
+  <!-- ------------------------------------------------------------------------------------- -->
+  
+  <header id="header" >
+    <div class="logo">
+      <img id="header-img" src="./img/Grupo_2.png" alt="">
+      
+    </div>
+
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#hero">Servicios</a></li>
+        <li><a class="nav-link" href="#how-it-works">Trailers</a></li>
+        <li><a class="nav-link" href="#pricing">Catalogo</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Recibe nuestro catalogo por Email</h2><br>
+    <form id="form" action="">
+      <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Ingresa tu Correo"
+        required
+      /> 
+      <input id="submit" type="submit" value="RECIBIR" class="btn" />
+    </form>
+  </section>
+
+  <div class="container">
+    <section id="features">
+      <div class="grid">
+        <div class="icon"><i class="fas fa-download"></i></div>
+        <div class="desc">
+          <h2>Descargas por pedidos</h2>
+          <p>
+            Descargamos Series y peliculas por pedidos a muy bajo precio.
+            1 pelicula 0.50$ y 10 capitulos de una serie 10$ 
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon"><i class="fas fa-tv"></i></div>
+        <div class="desc">
+          <h2>Ventas de Peliculas y Series</h2>
+          <p>
+            Contamos con un gran catalogo con las mejores series y peliculas del momento.
+            1 Pelicula 0.3$ | 10 capitulos de una serie 6$
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon">
+          <i class="fas fa-home"></i>
+        </div>
+        <div class="desc">
+          <h2>Entrega a domicilio</h2>
+          <p>
+            contamos con Delibery desde un de 1$
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works">
+      <h2>TRAILES</h2>
+      <iframe
+        class="video"
+        id="video"
+        height="315"
+        src=""
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+
+      <iframe
+        class="video"
+        height="315"
+        src=""
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+
+      <iframe
+        class="video"
+        height="315"
+        src=""
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </section><br>
+
+    <section id="pricing">
+      <div class="product" id="tenor">
+        <div class="level">Tenor Trombone</div>
+        <h2>$600</h2>
+        <ol>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="bass">
+        <div class="level">Bass Trombone</div>
+        <h2>$900</h2>
+        <ol>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="valve">
+        <div class="level">Valve Trombone</div>
+        <h2>$1200</h2>
+        <ol>
+          <li>Plays similar to a Trumpet</li>
+          <li>Great for Jazz Bands</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>Copyright 2016, Original Trombones</span>
+    </footer>
+  </div>
+
+</div>
+
+</body>
+
+</html>
